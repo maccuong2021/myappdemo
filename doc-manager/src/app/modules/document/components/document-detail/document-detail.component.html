@@ -1,0 +1,12 @@
+<div class="detail-container">
+    <h2>📄 Detail </h2>
+
+    <div *ngIf="doc" class="doc-detail">
+        <p><strong>📝 Title:</strong> {{ doc.title }}</p>
+        <p><strong>📚 Description:</strong> {{ doc.content }}</p>
+    </div>
+
+    <a href="/" class="back-link">
+        <i class="fas fa-arrow-left"></i> Back
+    </a>
+</div>

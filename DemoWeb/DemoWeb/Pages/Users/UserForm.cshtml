@@ -1,0 +1,27 @@
+﻿@page "{id?}"
+@model DemoWebAPI.Pages.Users.UserFormModel
+@{
+    ViewData["Title"] = Model.InputUser.Id == 0 ? "Add User" : "Edit User";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="InputUser.Username" class="form-label"></label>
+        <input asp-for="InputUser.Username" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="InputUser.Password" class="form-label"></label>
+        <input asp-for="InputUser.Password" class="form-control" type="password" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="InputUser.Role" class="form-label"></label>
+        <select asp-for="InputUser.Role" class="form-select">
+            <option>admin</option>
+            <option>user</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-page="UserList" class="btn btn-secondary">Cancel</a>
+</form>

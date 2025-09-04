@@ -1,0 +1,9 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyA0uMmygsU6Ub1KfbL3Bf5WZBYNcrZ3MlI",
+  authDomain: "myapp-d6063.firebaseapp.com",
+  projectId: "myapp-d6063",
+  storageBucket: "myapp-d6063.firebasestorage.app",
+  messagingSenderId: "538373405807",
+  appId: "1:538373405807:web:00bf1c1d7c414ddd74219a",
+  measurementId: "G-KJS1HS5E6H"
+};

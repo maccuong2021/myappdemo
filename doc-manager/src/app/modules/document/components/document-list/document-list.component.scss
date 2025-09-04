@@ -1,0 +1,44 @@
+.document-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.add-button {
+    display: inline-block;
+    margin: 10px 0 20px;
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.document-list {
+    list-style: none;
+    padding: 0;
+}
+
+.document-item {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions a,
+.actions button {
+    margin-left: 10px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.actions button.delete-button {
+    color: #dc3545;
+}

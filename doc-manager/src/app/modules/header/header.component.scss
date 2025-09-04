@@ -1,0 +1,30 @@
+.app-header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-content {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.login-name {
+  font-weight: bold;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  background-color: #c82333;
+}

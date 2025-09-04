@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Cuong\\fpt\\Code\\DemoWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\middleware\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\middleware\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\models\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\models\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\pages\\users\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\pages\\users\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\models\\logininputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\models\\logininputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|c:\\cuong\\fpt\\code\\demoweb\\demoweb\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48AA144-4C6C-4359-9F3B-94728BF3210F}|DemoWeb\\DemoWeb.csproj|solutionrelative:demoweb\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "DemoWeb\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "DemoWeb\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-09T03:32:01.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "DemoWeb\\Pages\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Auth\\Login.cshtml",
+              "RelativeToolTip": "DemoWeb\\Pages\\Auth\\Login.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T03:31:54.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DemoWeb\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "DemoWeb\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T03:31:35.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "DemoWeb\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Index.cshtml",
+              "RelativeToolTip": "DemoWeb\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T03:15:24.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Models\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "DemoWeb\\Models\\AuthResponse.cs",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Models\\AuthResponse.cs",
+              "RelativeToolTip": "DemoWeb\\Models\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:23:29.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiSettings.cs",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Models\\ApiSettings.cs",
+              "RelativeDocumentMoniker": "DemoWeb\\Models\\ApiSettings.cs",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Models\\ApiSettings.cs",
+              "RelativeToolTip": "DemoWeb\\Models\\ApiSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:23:25.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DemoWeb\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DemoWeb\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T03:14:11.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenMiddleware.cs",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Middleware\\AuthenMiddleware.cs",
+              "RelativeDocumentMoniker": "DemoWeb\\Middleware\\AuthenMiddleware.cs",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Middleware\\AuthenMiddleware.cs",
+              "RelativeToolTip": "DemoWeb\\Middleware\\AuthenMiddleware.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwB0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:22:23.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginInputModel.cs",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Models\\LoginInputModel.cs",
+              "RelativeDocumentMoniker": "DemoWeb\\Models\\LoginInputModel.cs",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Models\\LoginInputModel.cs",
+              "RelativeToolTip": "DemoWeb\\Models\\LoginInputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:23:32.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DemoWeb\\Models\\User.cs",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Models\\User.cs",
+              "RelativeToolTip": "DemoWeb\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:23:34.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Program.cs",
+              "RelativeDocumentMoniker": "DemoWeb\\Program.cs",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Program.cs",
+              "RelativeToolTip": "DemoWeb\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:24:26.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Users\\UserList.cshtml",
+              "RelativeDocumentMoniker": "DemoWeb\\Pages\\Users\\UserList.cshtml",
+              "ToolTip": "C:\\Cuong\\fpt\\Code\\DemoWeb\\DemoWeb\\Pages\\Users\\UserList.cshtml",
+              "RelativeToolTip": "DemoWeb\\Pages\\Users\\UserList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T03:13:49.422Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Cuong\\MyApps\\DocAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9745A322-9FC6-4906-8789-90217D1ABC2A}|DocAPI.csproj|c:\\cuong\\myapps\\docapi\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9745A322-9FC6-4906-8789-90217D1ABC2A}|DocAPI.csproj|solutionrelative:controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9745A322-9FC6-4906-8789-90217D1ABC2A}|DocAPI.csproj|c:\\cuong\\myapps\\docapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9745A322-9FC6-4906-8789-90217D1ABC2A}|DocAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9745A322-9FC6-4906-8789-90217D1ABC2A}|DocAPI.csproj|c:\\cuong\\myapps\\docapi\\rabbitmqservice\\services\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9745A322-9FC6-4906-8789-90217D1ABC2A}|DocAPI.csproj|solutionrelative:rabbitmqservice\\services\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Cuong\\MyApps\\DocAPI\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Cuong\\MyApps\\DocAPI\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "Controllers\\DocumentController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T16:48:43.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Cuong\\MyApps\\DocAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Cuong\\MyApps\\DocAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-02T16:12:17.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RabbitMqPublisher.cs",
+              "DocumentMoniker": "C:\\Cuong\\MyApps\\DocAPI\\RabbitMQService\\Services\\RabbitMqPublisher.cs",
+              "RelativeDocumentMoniker": "RabbitMQService\\Services\\RabbitMqPublisher.cs",
+              "ToolTip": "C:\\Cuong\\MyApps\\DocAPI\\RabbitMQService\\Services\\RabbitMqPublisher.cs",
+              "RelativeToolTip": "RabbitMQService\\Services\\RabbitMqPublisher.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T15:48:06.044Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
