@@ -1,0 +1,19 @@
+.app {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+
+  .app-content {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+.inventory-list,
+.cart {
+  flex: 1;
+}
+
+.inventory-card,
+.cart-card {
+  margin-bottom: 1rem;
+}

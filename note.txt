@@ -1,0 +1,114 @@
+npm install -g @nestjs/cli
+nest new test
+cd test
+
+mkdir -p src/modules/user
+nest generate module modules/user
+nest g controller modules/user/controller/user --flat
+nest generate service modules/user/service/user --flat
+nest generate class modules/user/model/user --no-spec --flat
+
+rm  src/modules/user -r
+npm install @nestjs/config
+@Module({
+  imports: [
+    ConfigModule.forRoot({
+      isGlobal: true,
+    }),
+    TypeOrmModule.forRootAsync({
+      imports: [ConfigModule],
+      useFactory: () => ({
+        type: 'mssql',
+        host: process.env.DB_HOST,
+        port: parseInt(process.env.DB_PORT ?? '1433', 10),
+        username: process.env.DB_USERNAME,
+        password: process.env.DB_PASSWORD,
+        database: process.env.DB_DATABASE,
+        entities: [__dirname + '/**/*.entity{.ts,.js}'],
+        synchronize: true,
+        options: {
+          encrypt: false,
+        },
+      }),
+    }),
+    UsersModule,
+  ],
+  controllers: [AppController],
+  providers: [AppService],
+})
+export class AppModule {}
+
+
+// add .env
+
+PORT=3000
+DATABASE_URL=postgres://user:password@localhost:5432/dbname
+JWT_SECRET=mysecretkey
+
+npm install --save @nestjs/typeorm typeorm mssql
+DB_TYPE=mssql
+DB_HOST=localhost
+DB_PORT=1433
+DB_USERNAME=your_user
+DB_PASSWORD=your_password
+DB_DATABASE=your_db
+http://localhost:3001/users
+
+app.module.ts
+
+import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
+
+npm install --save @nestjs/typeorm typeorm pg
+npm install --save @nestjs/typeorm typeorm mssql
+
+npm install --save @nestjs/mongoose mongoose
+
+
+main.ts
+
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+
+  // Enable CORS
+  app.enableCors({
+    origin: '*', // Allow all origins (not recommended for production)
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+  });
+
+  const port = process.env.PORT ?? 3000;
+  await app.listen(port);
+  console.log(`Application is running on: http://localhost:${port}`);
+}
+bootstrap();
+
+
+
+npm install --save @nestjs/swagger swagger-ui-express
+
+
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+
+  const config = new DocumentBuilder()
+    .setTitle('user API')
+    .setDescription('API for managing user')
+    .setVersion('1.0')
+    .build();
+
+  const document = SwaggerModule.createDocument(app, config);
+  SwaggerModule.setup('api', app, document);
+
+  await app.listen(3000);
+}
+bootstrap();
+
+

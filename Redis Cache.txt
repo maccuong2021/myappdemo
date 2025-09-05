@@ -1,0 +1,40 @@
+using StackExchange.Redis;
+using Newtonsoft.Json;
+
+var redis = ConnectionMultiplexer.Connect("localhost"); // hoặc IP Redis server
+var db = redis.GetDatabase();
+
+public async Task AddDocumentAsync(Document doc)
+{
+    var json = JsonConvert.SerializeObject(doc);
+    await db.StringSetAsync($"document:{doc.Id}", json);
+
+    // Lưu ID vào danh sách để dễ truy xuất tất cả
+    await db.SetAddAsync("document:ids", doc.Id);
+}
+
+public async Task<List<Document>> GetAllDocumentsAsync()
+{
+    var ids = await db.SetMembersAsync("document:ids");
+    var keys = ids.Select(id => (RedisKey)$"document:{id}").ToArray();
+
+    var values = await db.StringGetAsync(keys);
+    var documents = values
+        .Where(v => v.HasValue)
+        .Select(v => JsonConvert.DeserializeObject<Document>(v))
+        .ToList();
+
+    return documents;
+}
+
+var doc1 = new Document { Id = "doc001", Title = "Redis Intro", Content = "Redis is fast!" };
+var doc2 = new Document { Id = "doc002", Title = "Caching", Content = "Use Redis for caching." };
+
+await AddDocumentAsync(doc1);
+await AddDocumentAsync(doc2);
+
+var allDocs = await GetAllDocumentsAsync();
+foreach (var doc in allDocs)
+{
+    Console.WriteLine($"{doc.Id}: {doc.Title} - {doc.Content}");
+}

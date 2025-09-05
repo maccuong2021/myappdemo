@@ -1,0 +1,33 @@
+.inventory-cart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  justify-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inventory-card {
+  flex: 0 0 calc(25% - 16px); 
+  box-sizing: border-box;
+  min-width: 220px;
+}
+
+@media (max-width: 1024px) {
+  .inventory-card {
+    flex: 0 0 calc(33.33% - 16px); 
+  }
+}
+
+@media (max-width: 768px) {
+  .inventory-card {
+    flex: 0 0 calc(50% - 16px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .inventory-card {
+    flex: 0 0 100%; 
+  }
+}

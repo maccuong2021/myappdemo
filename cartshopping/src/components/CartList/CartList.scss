@@ -1,0 +1,11 @@
+.cart-list {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cart-card {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+}
